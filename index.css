@@ -1,0 +1,31 @@
+nav   {
+       font-size: 25px;
+}
+
+h1 {
+     color: #201E20;
+     font-family: Didot;
+     font-weight: 900px;
+     text-align: center; 
+     font-size: 50px;
+}
+
+h1 span  {
+          background-color: #E0A96D;
+}
+
+a {
+   color: #201E20
+}
+
+p  {
+    color: #201E20;
+    font-family: Courier;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 700px;
+}
+
+p span   {
+          background-color: #E0A96D;
+}
