@@ -84,6 +84,7 @@ article   {
            padding: 0%;
            margin: 100px;
            text-align: center;
+           overflow: auto;
 }
 
 p span  {

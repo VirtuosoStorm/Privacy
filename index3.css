@@ -4,6 +4,7 @@ h1 {
      font-weight: 900px;
      text-align: center; 
      font-size: 50px;
+     overflow: auto;
 }
 
 a:link   {
@@ -57,6 +58,7 @@ article   {
            border-radius: 3px;
            margin: 100px;
            text-align: center;
+           overflow: auto;
 }
 
 p span  {
