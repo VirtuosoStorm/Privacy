@@ -6,30 +6,30 @@ h1 {
      font-size: 50px;
 }
 
+div   {
+       text-align: center;
+}
+
 nav   {
-       background-color: rgba(231, 232, 209, 0.30);
-}
-
-.one  {
-       display:inline
+       margin: 0 auto;
        text-align: center;
-       word-spacing: 420px;
+       height: 75px;
+       width: 480px;
+       overflow-x: auto;
+       overflow-y: hidden;
+       white-space: nowrap;
+       word-spacing: 425px;
 }
 
-.two  {
-       display:inline
-       text-align: center;
-       word-spacing: 405px;
+li   {
+      float: center;
+      list-style-type: none;
+      display: inline;
 }
 
-.spanone   {
-            word-spacing: normal;
+.li   {
+       word-spacing: normal;
 }
-
-.spantwo   {
-            word-spacing: normal;
-}
-
 
 a:link   {
      color: #201E20;
@@ -64,10 +64,13 @@ a:active   {
 }
 
 body   {
-        background-image: url("Scarlet.jpeg");
-        background-repeat: no-repeat;
-        background-size: 100% 6.6%;
         background-color: #E7E8D1;
+}
+
+.span   {
+             background-image: url("Scarlet.jpeg");
+             background-repeat: no-repeat;
+             background-size: 100% 100%;
 }
 
 article   {
@@ -77,6 +80,8 @@ article   {
            border-width: 3px;
            border-color: #201E20;
            border-radius: 3px;
+           content: 100%;
+           padding: 0%;
            margin: 100px;
            text-align: center;
 }

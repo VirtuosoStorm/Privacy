@@ -6,31 +6,6 @@ h1 {
      font-size: 50px;
 }
 
-nav   {
-       background-color: rgba(231, 232, 209, 0.30);
-}
-
-.one  {
-       display:inline
-       text-align: center;
-       word-spacing: 420px;
-}
-
-.two  {
-       display:inline
-       text-align: center;
-       word-spacing: 405px;
-}
-
-.spanone   {
-            word-spacing: normal;
-}
-
-.spantwo   {
-            word-spacing: normal;
-}
-
-
 a:link   {
      color: #201E20;
      text-decoration: none;
@@ -64,10 +39,13 @@ a:active   {
 }
 
 body   {
-        background-image: url("Scarlet.jpeg");
-        background-repeat: no-repeat;
-        background-size: 100% 7.4%;
         background-color: #E7E8D1;
+}
+
+.span   {
+             background-image: url("Scarlet.jpeg");
+             background-repeat: no-repeat;
+             background-size: 100% 100%;
 }
 
 article   {
